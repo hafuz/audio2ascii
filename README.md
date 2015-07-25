@@ -10,7 +10,8 @@
 
   The plugin use [AudioCurve](https://github.com/olear/audiocurve) written by [@olear](https://github.com/olear)  on Linux and Windows, and a bash script(audio2ascii.sh) on MacOSX.
 
-  [sox](http://sox.sourceforge.net/) is use to convert audio.  
+  [sox](http://sox.sourceforge.net/) is use to convert audio.
+  **Windows users warning:** The official SoX Windows binaries don't support mp3 files due to license restrictions.
   ffplay(from [ffmpeg](http://www.ffmpeg.org/)) to play the preview (only for OSX and Linux for now).
 
 
